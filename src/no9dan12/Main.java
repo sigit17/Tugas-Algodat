@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Panjang elemen : "+x.element.length);
         System.out.println("data dipanggil di variabel x : "+x.toString());
         x.removeRange(0, 3);
-        System.out.println(x.toString());
+        System.out.println("Data setelah di remove range : "+x.toString());
         System.out.println("data dipanggil di variabel y : "+x.clone(y));
     }
 }
